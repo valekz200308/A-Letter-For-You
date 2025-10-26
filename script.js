@@ -1,4 +1,4 @@
-const message = `Aku minta maaf.\n\nAku sadar, aku tidak seperti pria lain yang mungkin kamu harapkan. Aku punya banyak kekurangan, dan mungkin itu membuatmu kecewa.\n\nTetapi, di hatiku yang terdalam ini. Aku selalu berusaha memberikan yang terbaik untuk mu.\n\nMaafkan aku jika seringkali aku tak mampu menjadi seperti yang kamu inginkan. Yang pasti, aku tetap di sini. Tetap berusaha, untuk mu.`;
+const message = `Aku minta maaf.\n\nAku sadar, aku tidak seperti pria lain yang mungkin kamu harapkan. Aku punya banyak kekurangan, dan mungkin itu membuatmu kecewa.\n\nTetapi, di hatiku yang terdalam ini. Aku selalu berusaha memberikan yang terbaik untuk mu.\n\nMaafkan aku jika tak mampu menjadi seperti yang kamu inginkan. Yang pasti, aku tetap di sini. Tetap berusaha, untuk mu.`;
 
 function showLetter() {
   document.getElementById("introText").style.opacity = 0;
@@ -21,3 +21,4 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
